@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~assets/*": [
+        "src/assets/*"
+      ],
+      "~/*": [
+        "src/*"
+      ],
+      "~components/*": [
+        "src/components/*"
+      ],
+      "~lib/*": [
+        "src/lib/*"
+      ],
+      "~routes/*": [
+        "src/routes/*"
+      ],
+      "~data-imports/*": [
+        "src/routes/data-imports/*"
+      ],
+      "~data-exports/*": [
+        "src/routes/data-exports/*"
+      ],
+      "~reports/*": [
+        "src/routes/reports/*"
+      ],
+      "~charts/*": [
+        "src/routes/charts/*"
+      ],
+      "~folders/*": [
+        "src/routes/folders/*"
+      ],
+      "~deployment/*": [
+        "src/routes/deployment/*"
+      ],
+      "~posts/*": [
+        "src/routes/posts/*"
+      ]
+    }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
